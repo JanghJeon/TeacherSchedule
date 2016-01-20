@@ -12,6 +12,8 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Me no hungry
+    
     private static ArrayList<Teacher> listOfTeachers;
     private static TextView[] arrayText;
 
