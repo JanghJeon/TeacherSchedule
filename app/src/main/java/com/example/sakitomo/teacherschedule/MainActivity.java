@@ -13,7 +13,9 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     //Me no hungry
-    
+
+    private int todayWeather;
+
     private static ArrayList<Teacher> listOfTeachers;
     private static TextView[] arrayText;
 
@@ -24,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         setVariables();
         setSpinner();
+        todayWeather = 10;
     }
 
     private void setVariables() {
